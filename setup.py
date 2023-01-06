@@ -23,6 +23,11 @@ setup(
     install_requires=[
         "emoji",
         "praw>=5.0.0,<6.0.0"
+    ],
+    entry_points={
+    'console_scripts': [
+      'emojipasta = emojipasta.__main__:main'
     ]
+  }
 )
 

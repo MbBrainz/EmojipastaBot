@@ -9,6 +9,7 @@ import json
 import emojipasta.util.emoji
 import emojipasta.util.files
 import emojipasta.util.text
+import emojipasta.util.cli as cli
 
 class EmojipastaGenerator:
 
@@ -73,9 +74,10 @@ def _get_emoji_mappings():
             _EMOJI_MAPPINGS = json.load(mappings_file)
     return _EMOJI_MAPPINGS
 
-def main():
+def main(string_to_parse: str):
     generator = EmojipastaGenerator.of_default_mappings()
-    print(generator.generate_emojipasta("testing testing hello world"))
+    print(generator.generate_emojipasta(string_to_parse))
 
 if __name__ == "__main__":
-    main()
+    args = cli.parse_arguments()
+    main(args.string_to_parse)

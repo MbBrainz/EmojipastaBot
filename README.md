@@ -1,3 +1,5 @@
+I forked this repo cause i wanted to make a cli tool from it so i could emojipasta my git commit msgs... I know, i know, but it's fun.
+
 ## Description
 [u/AnEmojipastaBot](https://www.reddit.com/user/anemojipastabot) (now suspended from reddit) turns the parent
 of your comment into emojipasta. It can be summoned by mentioning it.
