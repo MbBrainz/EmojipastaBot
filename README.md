@@ -1,8 +1,26 @@
-I forked this repo cause i wanted to make a cli tool from it so i could emojipasta my git commit msgs... I know, i know, but it's fun.
+# Emoji Pasta CLI
+[![PyPI version](https://badge.fury.io/py/emojipastabot.svg)](https://badge.fury.io/py/emojipastabot)
+
+## Description
+A cli tool that turns your text into emojipasta. 
+example: `its getting hot in here` -> `it's getting hot 🔥😍 in 🔽👏 here 💪👏`
+
+after installation, you can use the cli tool by typing `emojipasta` in your terminal. 
+
+<!-- you can add this alias to your `.bashrc` or `.zshrc` file to make your git commits more spicy: -->
 
 
 
-*The original readme:*
+### Installation
+`pip install emojipastabot`
+
+### Usage
+```
+emojipasta "it's getting hot in here"
+>>> it's getting hot 🔥😍 in 🔽👏 here 💪👏
+```
+
+*The original Readme should still make sense mostly, except for some directory changes:*
 ## Description
 [u/AnEmojipastaBot](https://www.reddit.com/user/anemojipastabot) (now suspended from reddit) turns the parent
 of your comment into emojipasta. It can be summoned by mentioning it.

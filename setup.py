@@ -4,8 +4,9 @@ from setuptools import find_packages
 setup(
     name="emojipastabot",
     description="Generate emojipasta from text.",
+    readme="README.md",
     version="1.0.0",
-    url="https://github.com/Kevinpgalligan/EmojipastaBot",
+    url="https://github.com/MbBrainz/EmojipastaBot",
     author="Kevin Galligan",
     author_email="galligankevinp@gmail.com",
     classifiers=[
