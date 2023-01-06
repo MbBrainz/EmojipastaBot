@@ -6,8 +6,8 @@ def parse_arguments() -> argparse.Namespace:
   
   # add the arguments
   parser.add_argument("string_to_parse", help="This is the string that will get emojipasta'ed", type=str)
-  parser.add_argument("-f", "--flag1", help="This is the first flag", action="store_true")
-  parser.add_argument("-a", "--arg", help="This is a new argument", default="default value", type=str)
+  # parser.add_argument("-f", "--flag1", help="This is the first flag", action="store_true")
+  # parser.add_argument("-a", "--arg", help="This is a new argument", default="default value", type=str)
   
   # parse the arguments
   args = parser.parse_args()
