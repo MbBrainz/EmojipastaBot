@@ -20,6 +20,11 @@ emojipasta "it's getting hot in here"
 >>> it's getting hot 🔥😍 in 🔽👏 here 💪👏
 ```
 
+or add the `-c` flag to use it as a git commit message hook:
+```
+emojipasta -c "new commit feature"
+[[CURRENT_BRANCH] [COMMIT_HASH]] new 🗞👆 commit feature
+```
 *The original Readme should still make sense mostly, except for some directory changes:*
 ## Description
 [u/AnEmojipastaBot](https://www.reddit.com/user/anemojipastabot) (now suspended from reddit) turns the parent
