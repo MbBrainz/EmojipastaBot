@@ -1,5 +1,5 @@
 # Emoji Pasta CLI
-[![PyPI version](https://badge.fury.io/py/emojipastabot.svg)](https://badge.fury.io/py/emojipasta-cli)
+[![PyPI version](https://badge.fury.io/py/emojipasta-cli.svg)](https://badge.fury.io/py/emojipasta-cli)
 
 ## Description
 A cli tool that turns your text into emojipasta. 
