@@ -4,8 +4,8 @@ from setuptools import find_packages
 setup(
     name="emojipasta-cli",
     description="Generate emojipasta from text.",
-    readme="README.md",
-    version="1.0.0",
+    readme="./README.md",
+    version="1.1.0",
     url="https://github.com/MbBrainz/EmojipastaCLI",
     author="Kevin Galligan",
     author_email="galligankevinp@gmail.com",
